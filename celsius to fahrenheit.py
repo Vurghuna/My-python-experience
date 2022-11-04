@@ -1,0 +1,7 @@
+print("This is Celsius-Fahrenheit convertor")
+c = int(input("Type number in Celsius :"))
+f = (round(c*9/5)+32)
+a = int(input("Type number in Fahrenheit :"))
+b = (round(c-32)*5/9)
+print(str(a)+' Fahrenheit(F)','equals to',str(b)+' Celsius')
+print(str(f)+' Celsius(C)','equals to',str(c)+' Fahrenheit')
